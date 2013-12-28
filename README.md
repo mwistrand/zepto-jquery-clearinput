@@ -3,8 +3,8 @@ A simple plugin that clears input values on focus. If the user does not enter a 
 
 ## Usage
 `clearInput` takes two arguments:
-1. `delegate`: A selector string representing the elements that should trigger the `focus` and `blur` events (although the events will only be attached to the elements invoking the plugin). Defaults to `'input'`, unless the element invoking the plugin is itself an input element, in which case this will be `null`.
-2. `focusedClass`: The CSS class to be applied to focused elements. Defaults to `is-focused`.
+  1. `delegate`: A selector string representing the elements that should trigger the `focus` and `blur` events (although the events will only be attached to the elements invoking the plugin). Defaults to `'input'`, unless the element invoking the plugin is itself an input element, in which case this will be `null`.
+  2. `focusedClass`: The CSS class to be applied to focused elements. Defaults to `is-focused`.
 
 Example:
 
